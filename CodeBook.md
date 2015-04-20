@@ -13,89 +13,156 @@ File average_dataset.txt contains a tidy data table where columns represent the 
 
 The 68 variables contained in the dataset are:
 
-[1]	subject 
+[1]	subject
+
 [2]	activity
+
 [3]	timeBodyAccelerationMeanX
+
 [4]	timeBodyAccelerationMeanY
+
 [5]	timeBodyAccelerationMeanZ
+
 [6]	timeBodyAccelerationStdX
+
 [7]	timeBodyAccelerationStdY
+
 [8]	timeBodyAccelerationStdZ
+
 [9]	timeGravityAccelerationMeanX
-[10	timeGravityAccelerationMeanY
+
+[10]	timeGravityAccelerationMeanY
+
 [11]	timeGravityAccelerationMeanZ
+
 [12]	timeGravityAccelerationStdX
+
 [13]	timeGravityAccelerationStdY
+
 [14]	timeGravityAccelerationStdZ
+
 [15]	timeBodyAccelerationJerkMeanX
+
 [16]	timeBodyAccelerationJerkMeanY
+
 [17]	timeBodyAccelerationJerkMeanZ
+
 [18]	timeBodyAccelerationJerkStdX
+
 [19]	timeBodyAccelerationJerkStdY
+
 [20]	timeBodyAccelerationJerkStdZ
+
 [21]	timeBodyGyroMeanX
+
 [22]	timeBodyGyroMeanY
+
 [23]	timeBodyGyroMeanZ
+
 [24]	timeBodyGyroStdX
+
 [25]	timeBodyGyroStdY
+
 [26]	timeBodyGyroStdZ
+
 [27]	timeBodyGyroJerkMeanX
+
 [28]	timeBodyGyroJerkMeanY
+
 [29]	timeBodyGyroJerkMeanZ
+
 [30]	timeBodyGyroJerkStdX
+
 [31]	timeBodyGyroJerkStdY
+
 [32]	timeBodyGyroJerkStdZ
+
 [33]	timeBodyAccelerationMagMean
+
 [34]	timeBodyAccelerationMagStd
+
 [35]	timeGravityAccelerationMagMean
+
 [36]	timeGravityAccelerationMagStd
+
 [37]	timeBodyAccelerationJerkMagMean
+
 [38]	timeBodyAccelerationJerkMagStd
+
 [39]	timeBodyGyroMagMean
+
 [40]	timeBodyGyroMagStd
+
 [41]	timeBodyGyroJerkMagMean
+
 [42]	timeBodyGyroJerkMagStd
+
 [43]	frequencyBodyAccelerationMeanX
+
 [44]	frequencyBodyAccelerationMeanY
+
 [45]	frequencyBodyAccelerationMeanZ
+
 [46]	frequencyBodyAccelerationStdX
+
 [47]	frequencyBodyAccelerationStdY
+
 [48]	frequencyBodyAccelerationStdZ
+
 [49]	frequencyBodyAccelerationJerkMeanX
+
 [50]	frequencyBodyAccelerationJerkMeanY
+
 [51]	frequencyBodyAccelerationJerkMeanZ
+
 [52]	frequencyBodyAccelerationJerkStdX
+
 [53]	frequencyBodyAccelerationJerkStdY
+
 [54]	frequencyBodyAccelerationJerkStdZ
+
 [55]	frequencyBodyGyroMeanX
+
 [56]	frequencyBodyGyroMeanY
+
 [57]	frequencyBodyGyroMeanZ
+
 [58]	frequencyBodyGyroStdX
+
 [59]	frequencyBodyGyroStdY
+
 [60]	frequencyBodyGyroStdZ
+
 [61]	frequencyBodyAccelerationMagMean
+
 [62]	frequencyBodyAccelerationMagStd
+
 [63]	frequencyBodyAccelerationJerkMagMean
+
 [64]	frequencyBodyAccelerationJerkMagStd
+
 [65]	frequencyBodyGyroMagMean
+
 [66]	frequencyBodyGyroMagStd
+
 [67]	frequencyBodyGyroJerkMagMean
+
 [68]	frequencyBodyGyroJerkMagStd
 
-Variable [1] (integer, 1 to 30) contains the subject ID.
-Variable [2] (character, 6 values: {laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs}) contains the activity name.
-Variables [3]-[68] (numeric, [-1 1]) contain values of the mean and standard deviation of each of the 33 signals normalized between -1 and 1. Variable names are self-explanatory and combine the following fields:
-* time				time-domain measurement
-* frequency			frequency-domain measurement
-* Body				body-related measurement
-* Gravity			gravity-related measurement
-* Acceleration			linear acceleration measurement
-* Gyro				angular velocity measurement
-* Jerk				jerk measurement
-* Mag				magnitude of 3-D measurements
-* Mean				average measurement value
-* Std				standard deviation of measurement
-* X / Y / Z			X-, Y-, and Z-axis measurements	
+Variable [1] - integer, 1 to 30 - contains the subject ID.
+Variable [2] - character, 6 values: {laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs} - contains the activity name.
+Variables [3]-[68] - numeric, [-1 1] - contain values of the mean and standard deviation of each of the 33 signals normalized between -1 and 1. Variable names are self-explanatory and combine the following fields:
+* time:				time-domain measurement
+* frequency:			frequency-domain measurement
+* Body:				body-related measurement
+* Gravity:			gravity-related measurement
+* Acceleration:			linear acceleration measurement
+* Gyro:				angular velocity measurement
+* Jerk:				jerk measurement
+* Mag:				magnitude of 3-D measurements
+* Mean:				average measurement value
+* Std:				standard deviation of measurement
+* X / Y / Z:			X-, Y-, and Z-axis measurements	
 
 
 ### References

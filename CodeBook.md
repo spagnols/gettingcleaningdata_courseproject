@@ -150,7 +150,9 @@ The 68 variables contained in the dataset are:
 [68]	frequencyBodyGyroJerkMagStd
 
 Variable [1] - integer, 1 to 30 - contains the subject ID.
+
 Variable [2] - character, 6 values: {laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs} - contains the activity name.
+
 Variables [3]-[68] - numeric, [-1 1] - contain values of the mean and standard deviation of each of the 33 signals normalized between -1 and 1. Variable names are self-explanatory and combine the following fields:
 * time:				time-domain measurement
 * frequency:			frequency-domain measurement
